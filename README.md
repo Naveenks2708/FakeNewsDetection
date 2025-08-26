@@ -140,5 +140,5 @@ Prediction: REAL (89.7% confidence)
 ---
 
 ## 👨‍💻 Author
-- **Your Name**  
+- **Naveenkumar S**  
 - Enthusiastic about AI/ML, NLP, and multilingual fake news detection  
