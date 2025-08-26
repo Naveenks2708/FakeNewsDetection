@@ -6,7 +6,9 @@ from utils.text_preprocessing import clean_text
 model = load('models/fake_news_model.pkl')
 vectorizer = load('models/vectorizer.pkl')
 
-API_KEY = "f60bca7a5361457e86ce4e8aeb2db066"
+import os
+API_KEY = os.getenv("API_KEY")
+
 
 def fetch_live_news():
     url = f"https://newsapi.org/v2/top-headlines?language=en&pageSize=10&apiKey={API_KEY}"
