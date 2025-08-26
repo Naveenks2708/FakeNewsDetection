@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+.env
+
+# Jupyter/Reports
+.ipynb_checkpoints/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Build/Dist
+build/
+dist/
+*.spec
+
+# Project: big or generated files
+models/*.pkl
+models/*.pt
+models/*.bin
+outputs/**
+data/**
